@@ -11,7 +11,7 @@ dotenv.config();
 
 // app config
 const app = express();
-const port = 4000;
+const PORT = 4000;
 
 // middleware
 app.use(express.json());
@@ -31,8 +31,8 @@ app.get("/", (req, res) => {
   res.send("API Working");
 });
 
-app.listen(port, () => {
-  console.log(`Server Started on http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`Server Started on http://localhost:${PORT}`);
 });
 app.get("/api/test", (req, res) => {
   res.json({ success: true, message: "Backend is working!" });
