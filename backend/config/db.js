@@ -7,3 +7,5 @@ export const connectDB = async () => {
     )
     .then(() => console.log("DB Connected"));
 };
+
+//mongodb+srv://aaryanmandal1:Mandal6648@cluster01.sqn0ubc.mongodb.net/

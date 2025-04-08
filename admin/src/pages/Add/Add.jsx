@@ -32,7 +32,7 @@ const Add = ({ url }) => {
         name: "",
         description: "",
         price: "",
-        category: "Salad",
+        category: "Birth",
       });
       setImage(false);
       toast.success(response.data.message);
@@ -97,10 +97,6 @@ const Add = ({ url }) => {
               <option value="Migration">Migration</option>
               <option value="Relationship">Relationship</option>
               <option value="Correction">Correction</option>
-
-
-
-
             </select>
           </div>
           <div className="add-price">
